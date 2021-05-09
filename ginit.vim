@@ -6,8 +6,17 @@ Plug 'morhetz/gruvbox'
 call plug#end()
 
 " Additional changes
-set nu " Sets line number.
+set nu rnu " Sets line number.
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
 set autoindent
+set smartindent
+set noexpandtab
+set tabstop=4
+set shiftwidth=4
 " set bg=dark
 syntax on 
 set noerrorbells
@@ -27,4 +36,4 @@ set guifont=Consolas:h18
 colorscheme gruvbox
 GuiTabline 0
 inoremap <silent>  <S-Insert>  <C-R>+
-
+set ruler
