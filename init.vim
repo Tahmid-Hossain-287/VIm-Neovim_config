@@ -8,7 +8,6 @@ Plug 'vim-airline/vim-airline' " Status bar plugin
 Plug 'jiangmiao/auto-pairs' " Auto-completes brackets and quotes.
 Plug 'scrooloose/nerdcommenter' " Plugin for comment and uncomment.
 Plug 'scrooloose/nerdtree' " Plugin for code navigation.
-Plug 'tmhedberg/SimpylFold' " Plugin for folding code.
 Plug 'tpope/vim-surround' " Plugin for parenthesis, quoting.
 call plug#end()
 
@@ -20,18 +19,15 @@ augroup numbertoggle
   autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
 set autoindent
-set smartindent
-set noexpandtab
-set tabstop=4
-set shiftwidth=4
-set encoding=utf-8
+set noexpandtab " Inserts tab instead of spaces.
+set tabstop=4 " Uses four columns or four characters for tab.
+set shiftwidth=4 
+set encoding=utf-8 " Recommended encoding for python.
 " set bg=dark
 set nohlsearch
 syntax on 
 set noerrorbells
-set tabstop=4 " Tab is 4 characters long.
 set wrap linebreak nolist
-set noex
 set hidden
 set clipboard=unnamedplus
 set ic
@@ -49,3 +45,5 @@ set signcolumn=yes
 set guifont=Consolas:h19
 colorscheme gruvbox
 " GuiTabline 0
+set foldmethod=manual
+" set foldlevelstart=99
