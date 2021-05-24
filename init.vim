@@ -1,4 +1,3 @@
-
 let g:python3_host_prog='C:/Users/mstah/Envs/env/Scripts/python.exe'
 call plug#begin('C:/Users/mstah/AppData/Local/nvim/plugged')
 " add the plugin you want to use here.
@@ -11,9 +10,11 @@ Plug 'vim-airline/vim-airline' " Status bar plugin
 Plug 'scrooloose/nerdcommenter' " Plugin for comment and uncomment.
 Plug 'scrooloose/nerdtree' " Plugin for code navigation.
 Plug 'tpope/vim-surround' " Plugin for parenthesis, quoting.
-Plug 'lukas-reineke/indent-blankline.nvim' " Plugin for showing indentation.
-	let g:indentLine_enabled = 1
-	let g:indent_blankline_enabled = v:true
+"Plug 'Yggdroot/indentLine'
+Plug 'lukas-reineke/indent-blankline.nvim', { 'branch': 'lua' } " Plugin for showing indentation.
+	let g:indent_blankline_char = '│'
+	"let g:indentLine_enabled = 0
+	"let g:indent_blankline_enabled = v:false
 "Plug 'severin-lemaignan/vim-minimap'
 	"let g:minimap_highlight='Visual'
 	"let g:minimap_show='<leader>ms'
@@ -45,7 +46,7 @@ set encoding=utf-8 " Recommended encoding for python.
 set nohlsearch
 syntax on 
 set noerrorbells
-"set wrap linebreak nolist
+set wrap linebreak nolist
 set hidden
 set ic
 set scs
