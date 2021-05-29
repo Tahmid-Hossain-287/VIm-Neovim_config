@@ -14,7 +14,7 @@
             {
             "scope": "meta.function-call.generic.python",
             "settings": {
-                "foreground": "#acc03b"
+                "foreground": "#9bb939"
             }
             }
         ]
