@@ -32,6 +32,16 @@ earning in 4 months summer vacation(12 hours work daily) = 121 * 15 * 12 = 21780
 total earning in 1 year(10 hour during summer vacation) = 28050 cad
 total earning in 1 year(12 hour during summer vacation) = 31980 cad
 
+manitoba income per year
+
+in 8 months(study time)
+34.7 * 12.35 * 20 = 8570
+
+in 4 months(vacation time) (8 hours workday, 6 days weekly)
+17.3 * 12.35 * 48 = 18825
+
+total income in 12 months = 18825 
+
 for masters, estimated support from home(according to one student from his expeience):
 1. tuition fee of two semesters
 2. living cost of one semester.
