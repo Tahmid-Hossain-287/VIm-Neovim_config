@@ -1,5 +1,7 @@
-
+ Ask Maces about Bethany Lutheran College
+ 27.147.226.219
 https://youtu.be/F9UC9DY-vIU?t=4998
+Get-NetAdapter | select interfaceDescription, name, status, linkSpeed
 
 Studytonight has great kotlin resources.
 30 credits per year cs
