@@ -2,6 +2,14 @@
  27.147.226.219
 https://youtu.be/F9UC9DY-vIU?t=4998
 Get-NetAdapter | select interfaceDescription, name, status, linkSpeed
+10.20.238.78
+8.8.8.8
+
+
+-.25-.25+16 E
+3-.25+1-.25-.25+1+1+1+1-.25+1-.25+1 B
+-.25 + -.25 +1 -.25 -.25 C
+-.25 +1 +1 +1 +1 +1 +1 +1 +1 +1 -.25 +1 +1  P
 
 Studytonight has great kotlin resources.
 30 credits per year cs
