@@ -1,12 +1,7 @@
- Ask Maces about Bethany Lutheran College
- 27.147.226.219
 https://youtu.be/F9UC9DY-vIU?t=4998
 Get-NetAdapter | select interfaceDescription, name, status, linkSpeed
 10.20.238.78
 8.8.8.8
-
-Books to read next:
-Fire & Blood
 
 Series Tales of Drunk and Egg:
 The Hedge Knight
