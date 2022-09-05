@@ -5,6 +5,13 @@ Get-NetAdapter | select interfaceDescription, name, status, linkSpeed
 10.20.238.78
 8.8.8.8
 
+Books to read next:
+Fire & Blood
+
+Series Tales of Drunk and Egg:
+The Hedge Knight
+The Sworn Sword
+The Mystery Knight
 
 -.25-.25+16 E
 3-.25+1-.25-.25+1+1+1+1-.25+1-.25+1 B
