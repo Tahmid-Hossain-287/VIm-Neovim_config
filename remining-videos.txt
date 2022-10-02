@@ -3,6 +3,8 @@ Get-NetAdapter | select interfaceDescription, name, status, linkSpeed
 10.20.238.78
 8.8.8.8
 
+Kumar Gaw, Wapda Gate, Tuker Bazar, Jalalabad, Sylhet
+
 Series Tales of Drunk and Egg:
 The Hedge Knight
 The Sworn Sword
