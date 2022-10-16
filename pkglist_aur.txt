@@ -1,0 +1,4 @@
+authy
+kipi-plugins
+microsoft-edge-stable-bin
+yay-bin
